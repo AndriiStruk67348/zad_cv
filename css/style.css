@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.separator {   
+    height: 1px;        
+    background:rgba(255, 255, 255, 0.15);
+    border: none;        
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background: url('../img/mOS_1.jpg') center/cover no-repeat;
+    margin: 0;
+    padding: 0;  
+    --blur: 35px;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+}
+
+.resume {
+    border-radius: 45px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1450px;
+    display: flex;
+    flex-direction: row;
+    background: url('../img/mOS_2.png') center/cover no-repeat;
+}
+
+section, .custom-select, .avatar, .links, .name_info {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.005), rgba(255, 255, 255, 0.05)),
+                radial-gradient(circle at top left, rgba(255,255,255,0.15), transparent 60%),rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(var(--blur)) saturate(180%);
+    -webkit-backdrop-filter: blur(var(--blur)) saturate(180%);
+    box-shadow:inset 0 0 1px rgba(255, 255, 255, 0.2),0 8px 32px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+li[data-i17n="GitHub"]::before {background-image: url("../img/GitHub.png");}
+li[data-i17n="Telegram"]::before {background-image: url("../img/Telegram.png");}
+li[data-i17n="LinkedIn"]::before {background-image: url("../img/LinkedIn.png");}
+li[data-i18n="address"]::before {background-image: url("../img/Address.png");}
+#phone::before {background-image: url("../img/Phone.png");}
+#mail::before {background-image: url("../img/Mail.png");}
+li[data-i18n="ukrainian"]::before {background-image: url("../img/UA.png");}
+li[data-i18n="russian"]::before {background-image: url("../img/RU.png");}
+li[data-i18n="polish"]::before {background-image: url("../img/PL.png");}
+li[data-i18n="english"]::before {background-image: url("../img/EN.png");}
