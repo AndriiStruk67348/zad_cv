@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function loadLanguage(lang) {
-    fetch(`/locales/${lang}.json`)
+    fetch(`./locales/${lang}.json`)
       .then(res => res.json())
       .then(translations => {
         document.querySelectorAll("[data-i18n]").forEach(el => {
@@ -33,4 +33,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   loadLanguage('pl');
+
 });
