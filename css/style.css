@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "MyPixelFont"; 
+    src: url("../fonts/ari.woff2") format("woff2"); 
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: url("../fonts/exo_2.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: url("../fonts/exo_2_700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+body {    
+    flex-direction: column;
+    font-family: "Exo2", sans-serif;
+    line-height: 1.5;
+    z-index: 0;
+    --blur: 45px;
+    --small_font: 15px;
+    --midl_font: 18px;
+    --label_font: 11px;
+    --title_font: 24px;
+    --title_Main_font: 28px;
+    --title_Second_font: 16px;
+    --title_color:rgb(255, 255, 255);
+    --text_color: rgba(255, 255, 255, 0.75);
+    --text_light_color: rgba(246, 255, 221, 0.8);
+    font-size: var(--small_font);
+}
+
+html::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    background: url('../img/UndergroundJungle.avif') center/cover no-repeat;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor; 
+}
+
+.resume {
+    width: calc(min(1690px, 100%) - 60px);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto 0;
+    border-radius: 45px;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.4);
+    outline: 1px solid rgba(117, 255, 104, 0.25);
+}
+
+main {
+    width: min(1300px, 100%);
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    color: var(--text_color);
+}
+
+header {
+    width: 330px;
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 45px;
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25);
+    outline: 1px solid rgba(117, 255, 104, 0.25);
+}
+
+.resume::before, header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 45px;
+    backdrop-filter: blur(12px) saturate(110%);
+}
+
+header::before {
+     backdrop-filter: blur(24px) saturate(110%);
+}
+
+section, .custom-select, .avatar, .links, .name_info, footer p{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.005), rgba(255, 255, 255, 0.05)),
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.15), transparent 60%), rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(var(--blur)) saturate(180%);
+    -webkit-backdrop-filter: blur(var(--blur)) saturate(180%);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25);
+    outline: 1px solid rgba(117, 255, 104, 0.25);
+}
+
+.trr, .edu-info, .skills_list, .summary_text, .projects-body, article, .social_media, .contact_information, footer p{
+  flex: 1;
+  padding: 15px 35px;
+  border-radius: 0px 0px 45px 45px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    text-align: center;
+    font-size: var(--small_font);
+    color: var(--text_light_color);
+    width: calc(min(1690px, 100%) - 60px);
+    position: relative;
+    margin: 10px auto ;
+}
+
+footer p{
+ padding: 10px 0;
+ border-radius: 45px;
+}
+
+a[data-i18n="GitHub"]::before {background-image: url("../img/social_media/GitHub.webp");}
+a[data-i18n="Telegram"]::before {background-image: url("../img/social_media/Telegram.webp");}
+a[data-i18n="LinkedIn"]::before {background-image: url("../img/social_media/LinkedIn.webp");}
+a[data-i18n="phone"]::before {background-image: url("../img/contact_information/Phone.webp");}
+a[data-i18n="mail"]::before {background-image: url("../img/contact_information/Mail.webp");}
+a[data-i18n="address"]::before {background-image: url("../img/contact_information/Address.webp");}
+li[data-i18n="ukrainian"]::before {background-image: url("../img/languages_ico/UA.webp");}
+li[data-i18n="russian"]::before { background-image: url("../img/languages_ico/RU.webp");}
+li[data-i18n="polish"]::before {background-image: url("../img/languages_ico/PL.webp");}
+li[data-i18n="english"]::before {background-image: url("../img/languages_ico/EN.webp");}
+.skills_list li.html::before{background-image: url("../img/skills/html.svg");}
+.skills_list li.javascript::before{background-image: url("../img/skills/javascript.svg");}
+.skills_list li.react::before{background-image: url("../img/skills/react.svg");}
+.skills_list li.winforms::before{background-image: url("../img/skills/wpf.svg");}
+.skills_list li.csharp::before{background-image: url("../img/skills/csharp.svg");}
+.skills_list li.telegram::before{background-image: url("../img/skills/tg.svg");}
+.skills_list li.git::before{background-image: url("../img/skills/git.svg");}

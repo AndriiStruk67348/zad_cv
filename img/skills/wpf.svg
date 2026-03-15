@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100" height="100">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h240v240h-240z"/>
+		</clipPath>
+		<image  width="202" height="97" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMoAAABhAgMAAADq0NYWAAAAAXNSR0IB2cksfwAAAAxQTFRFAAAA////////////OMA7qAAAAAR0Uk5TAGXW/wfv4kUAAARiSURBVHicjZhdThRBFIW7IBGCqAsQI3ED4g6AFbgEdyCuwJkXn2EHLsEV6CxBdgCJPBsTSYCEwa5z/8690yD9AD1dfW6d+urWX7ehXh+Ph+FiZ+UxXa3+/r7f/91sPF6jkodrKpqXv/Tm7nDxSI1XM+WuN/TkaEWzcRX3B6WiLhFRm3guV2mRuR5FSfPkmn4s1yeLRs9J8/qMfyVz4eDkKGk+z/gXm2tLv73ZYE2yls0lOKzJ1pI5hnPKGi5A4d6EtWE4J00q6Nfl9pS14Q9p1m6L5npz0jVrNNiYaQrDIVBKFY0EQ3KqyCAka6k9b3/2v8hCxWEQPNtxMTf0qI4Bqeh8l0r8modGsekYwGsG7se+uoYV6lPDJikDOwpOo42ue6TlemisoUIL7yk4KekJvUSg0HgfCIUe8m6NSkYgEF9uh0aweYvwosB2OE//QhuagIM3EROwpTmdB+LMZ66hbMObQHK+63C6Y4Q9WLiGsg2IEQN3qBE4OvPxxjWUH4KrBwVsOOpqxRYaTl00qDOBGo66X1gZxa5xbNYgB4cs6DeGxTWcU2gGwM5n1LuKzTVpkKIZFhWO8ESybeGaNEgR1dxr56uVXmQawXbySUZkd2+U4Ki30B64BiVjSot2Pouw5sgrdo17RUUAp488WT2bTGNeowcNk3Z+YDONe6VMkbjvPIfcZCNs0S3wIs+e35pXt9IIW3Q/gXtxZY7cSiNsTkvlaMmbs4rNNO5V55jzXZMfHVdspnGgmkMBbrGCTTWRh5pDuAcOjxBWWsFmE/3aQMPQncpE1AIbSmzoOTgjQhNeC2zeCQncoK0IK6qp2BjckAepayo2BqclgU004dWbzeBwH1ZEU7KtgvNBqvN3m8D27X0G10t4nWgT2D58zRR5bnNNxrbc8mpl0ivYRJOxXW95TBio2KAp2C6f5d8VGzQF2+me1ysZ21/1Qaqagm0+i5G/VAYxSFUT2PTlwnG0wNigCa/qIKZbgXC4CCuqKdg2aVqXTLjYiZpFUwZpX5TKsL07/E3YuqYM0h5NF9vY0HyZebZBs4JNW0hTF67Yzk1g40e0zPpWs01gGwgcLeeGrWtWsDGWutVQjS8WER3PpM1lSyOa2HBQJzi4aJBjGzWBDS9Kvoc8zxCq0Vw26+IAD2Pfk7CNGt9vxGBJ93YicGyjxrGhkLeg0gIzR6cHxybb47TVlVVAN/FxSmmOLW/DwYO2wIRtaIZNt/s6TUgrdRlARXSCarYvLQ4QSjf1sWVQTT5cRe7aTGA+RyuuyWeBiAYI+CmuA9vQbMGRK0rixBE7BtPcsYRK5M2RnFRD2IqG4GhXXrwSOHzwzBqCU053VFI03NB8iqSSzCB9aMinVT58J9ZsIJ8v0yG/8flOTj56pdN3itbu/5zBDrg541iIilI1EyeI0Hhj6+eZlZMKae77DES0czisp1008eUoaOdvMPXbE1/83eSxGq+owHlQoxVV2w9qtB9KNf/RdNHq165/uIydsAI8U18AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #0a72b6 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g>
+			<path class="s0" d="m36 0h168c19.88 0 36 16.12 36 36v168c0 19.88-16.12 36-36 36h-168c-19.88 0-36-16.12-36-36v-168c0-19.88 16.12-36 36-36z"/>
+			<use  href="#img1" x="19" y="72"/>
+		</g>
+	</g>
+</svg>
