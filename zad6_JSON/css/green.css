@@ -1,0 +1,7 @@
+:root{
+    --RedBackground: url('../img/UndergroundJungle.avif') center/cover no-repeat;
+    --RedOutline: rgba(117, 255, 104, 0.25);
+    --text_light_color: rgba(246, 255, 221, 0.8);
+    --RedBorder: #C4F129;
+    --RedHeader: #242107;
+}
